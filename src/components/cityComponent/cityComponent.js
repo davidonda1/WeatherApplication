@@ -9,7 +9,7 @@ const CityComponent = ({weather, delete_city, index, updateWeather}) => {
 
     const [isPressed, setIsPressed] = useState(false);
 
-    const renderNorm = () => {
+    const renderOk = () => {
         return (
 
             <div className='container shadow badge-info col-4 '>
@@ -45,7 +45,7 @@ const CityComponent = ({weather, delete_city, index, updateWeather}) => {
 
     return (
 
-        isPressed ? renderFullWeatherInfo() : renderNorm()
+        isPressed ? renderFullWeatherInfo() : renderOk()
     );
 };
 const mapDispatchToProps = dispatch => {
