@@ -1,0 +1,15 @@
+.container{
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    color: white;
+
+
+}
+.btn_city{
+    background-color: palevioletred;
+    border: 2px solid #c93964;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 15px;
+}

@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+.wrapper{
+  height: 100vh;
+  background: rgba(45,176,224,1);
+}
